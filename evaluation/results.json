@@ -1,0 +1,196 @@
+{
+  "protocol_sha256": "9d5018a158d7630bad837e02bba13e344692b134a255a23612ebb8ac3f80856c",
+  "resources": {
+    "cpu_seconds": 60.0,
+    "cpu_seconds_meaning": "charged reservation, not measured runtime",
+    "measured_cpu_before_closeout_seconds": 0.39375,
+    "measured_cpu_scope": "lower bound before final receipt and database closeout",
+    "peak_memory_bytes": 63422464,
+    "peak_memory_scope": "sum of process high-water marks, not simultaneous RSS or a hard cap",
+    "supervisor_cpu_seconds": 0.036573999999999995,
+    "wall_seconds": 0.43562154192477465,
+    "worker_cpu_seconds": 0.356413
+  },
+  "result": {
+    "checks": [
+      {
+        "name": "scenario 0",
+        "passed": true
+      },
+      {
+        "name": "scenario 1",
+        "passed": true
+      },
+      {
+        "name": "scenario 2",
+        "passed": true
+      },
+      {
+        "name": "scenario 3",
+        "passed": true
+      },
+      {
+        "name": "scenario 4",
+        "passed": true
+      },
+      {
+        "name": "scenario 5",
+        "passed": true
+      },
+      {
+        "name": "scenario 6",
+        "passed": true
+      },
+      {
+        "name": "scenario 7",
+        "passed": true
+      },
+      {
+        "name": "scenario 8",
+        "passed": true
+      },
+      {
+        "name": "scenario 9",
+        "passed": true
+      },
+      {
+        "name": "category 0",
+        "passed": true
+      },
+      {
+        "name": "category 1",
+        "passed": true
+      },
+      {
+        "name": "category 2",
+        "passed": true
+      },
+      {
+        "name": "category 3",
+        "passed": true
+      },
+      {
+        "name": "category 4",
+        "passed": true
+      },
+      {
+        "name": "category 5",
+        "passed": true
+      },
+      {
+        "name": "category 6",
+        "passed": true
+      },
+      {
+        "name": "category 7",
+        "passed": true
+      },
+      {
+        "name": "complete trial coverage",
+        "passed": true
+      },
+      {
+        "name": "deterministic reports",
+        "passed": true
+      },
+      {
+        "name": "clean false alarms",
+        "passed": true
+      },
+      {
+        "name": "fixture truth",
+        "passed": true
+      },
+      {
+        "name": "sentinel redaction",
+        "passed": true
+      },
+      {
+        "name": "event bound",
+        "passed": true
+      }
+    ],
+    "metrics": {
+      "baseline_validations": 200,
+      "c_0_fn": 0,
+      "c_0_fp": 0,
+      "c_0_tn": 1500,
+      "c_0_tp": 180,
+      "c_1_fn": 0,
+      "c_1_fp": 0,
+      "c_1_tn": 1500,
+      "c_1_tp": 180,
+      "c_2_fn": 0,
+      "c_2_fp": 0,
+      "c_2_tn": 1500,
+      "c_2_tp": 180,
+      "c_3_fn": 0,
+      "c_3_fp": 0,
+      "c_3_tn": 1480,
+      "c_3_tp": 200,
+      "c_4_fn": 0,
+      "c_4_fp": 0,
+      "c_4_tn": 1500,
+      "c_4_tp": 180,
+      "c_5_fn": 0,
+      "c_5_fp": 0,
+      "c_5_tn": 1500,
+      "c_5_tp": 180,
+      "c_6_fn": 0,
+      "c_6_fp": 0,
+      "c_6_tn": 1500,
+      "c_6_tp": 180,
+      "c_7_fn": 0,
+      "c_7_fp": 0,
+      "c_7_tn": 1480,
+      "c_7_tp": 200,
+      "clean_trials": 200,
+      "comparisons": 3360,
+      "detected_positives": 1480,
+      "deterministic_matches": 1680,
+      "exact_mutations": 1480,
+      "expected_positives": 1480,
+      "false_alarms": 0,
+      "inapplicable_mutations": 120,
+      "max_events": 4,
+      "mutated_trials": 1480,
+      "redaction_checks": 20,
+      "s_0_clean_agree": 20,
+      "s_0_exact_mutations": 160,
+      "s_0_trials": 180,
+      "s_1_clean_agree": 20,
+      "s_1_exact_mutations": 160,
+      "s_1_trials": 180,
+      "s_2_clean_agree": 20,
+      "s_2_exact_mutations": 160,
+      "s_2_trials": 180,
+      "s_3_clean_agree": 20,
+      "s_3_exact_mutations": 160,
+      "s_3_trials": 180,
+      "s_4_clean_agree": 20,
+      "s_4_exact_mutations": 160,
+      "s_4_trials": 180,
+      "s_5_clean_agree": 20,
+      "s_5_exact_mutations": 160,
+      "s_5_trials": 180,
+      "s_6_clean_agree": 20,
+      "s_6_exact_mutations": 160,
+      "s_6_trials": 180,
+      "s_7_clean_agree": 20,
+      "s_7_exact_mutations": 160,
+      "s_7_trials": 180,
+      "s_8_clean_agree": 20,
+      "s_8_exact_mutations": 160,
+      "s_8_trials": 180,
+      "s_9_clean_agree": 20,
+      "s_9_exact_mutations": 40,
+      "s_9_trials": 60,
+      "scenarios": 10,
+      "seeds": 20,
+      "trials": 1680
+    }
+  },
+  "schema": "agent-replay-evaluation/1",
+  "scope": "wholly synthetic offline traces; no live-model reliability claim",
+  "source_sha256": "4152654dccf1e5577457ba6d0a9d6d0b75c07a6716e018abd5b27c4270d5405b"
+}
